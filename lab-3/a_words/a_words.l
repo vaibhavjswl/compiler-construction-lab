@@ -5,7 +5,7 @@ int count = 0;
 
 
 %%
-A([A-Za-z]*)          {++count;}
+A([A-Za-z]*)          {printf("%s",yytext);++count;}
 .                     {}
 %%
 
