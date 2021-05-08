@@ -1,40 +1,29 @@
-# <TITLE>
+# desk_calc
 
 <add description here>
 
 ## RUN THE CODE via 
 1.  Use lex to create C file via : 
     ```bash
-    flex <FILENAME>.l
+    flex desk.l
     ```
 
 2. Use bison to create y.tab.c:
     ```bash
-    bison -dy <FILENAME>.y
+    bison -dy desk.y
     ```
-
 
 3.  Use GCC to compile C file/s via :
-
     ```bash
-    gcc lex.yy.c <FILENAME>.tab.c -lfl
+    gcc desk.tab.c -lfl
     ```
-    
-    OR
-
-    ```bash
-    gcc <FILENAME>.tab.c -lfl
-    ```
-
-depending on how you setup your code.
-
 
 4. Run file as command line argument :
     ```bash
-    ./a.out <add any args here if needed>
+    ./a.out
     ```
 
 ## Output
 
-<IMAGE>
+![desk_calc output](../../images/lab-8/desk_calc_output.jpg)
 

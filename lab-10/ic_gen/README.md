@@ -1,4 +1,4 @@
-# <TITLE>
+# ic_gen
 
 <add description here>
 
@@ -36,5 +36,5 @@ depending on how you setup your code.
 
 ## Output
 
-<IMAGE>
+![ic_gen output](../../images/lab-10/ic_gen_output.jpg)
 
